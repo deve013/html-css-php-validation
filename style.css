@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+.nav-address{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+}
+.logo{
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/** box 2**/
+.add-first{
+    color: #CCCCCC;
+    font-size: 0.8rem;
+}
+.add-sec{
+    font-size: 1rem;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/** box 3 **/
+.nav-search{
+    display: flex;
+
+    background-color:pink;
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.nav-icon{
+    height: 34px;
+    margin-right: 20px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
+
+}
+.search-input{
+    width: 100%;
+    border: none;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: rgb(235, 154, 57);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.nav-signin{
+    margin-right: 25px;
+
+}
+.nav-signin a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-return{
+    margin-right: 25px;
+
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.80rem;
+    font-weight: 700;
+    
+}
+
+
+.nav-cart{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+}
+.cart-text{
+    font-size: 0.8rem;
+}
+
+/** panel **/
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+
+
+}
+.panel-all{
+    margin-left: 25px;
+}
+.panel-ops{
+    width:80%;
+    font-size: 0.85 rem;
+    margin-left: 50px;
+    
+
+}
+ 
+.panel-ops1{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+}
+.panel-ops1 p{
+    margin-left: 20px;
+    font-weight: 550;
+}
+.panel-deals{
+    font-size: 0.85 rem;
+    font-weight: 700;
+}
+
+
+.hero-section{
+    background-image: url(heroimage.jpg);
+    background-size:cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero-msg{
+    background-color: white;
+    color:black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+
+}
+.hero-msg a{
+    color: blue;
+}
+
+
+/** shop secion **/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    background-color: rgb(195, 195, 195);
+
+    
+}
+
+
+.box{
+    height: 300px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+}
+
+.box-img{
+    height: 220px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.box-content p{
+    color: blue;
+}
+
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color:#37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+
+
+
+.foot-panel2{ 
+    background-color:#222f3d;
+    color: white;  
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:bisque
+    
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 75px;
+
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 15px;
+}
+.copyright{
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+/* .container1{
+    position: absolute;
+    z-index: 1;
+    top: 230px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, transparent, #eaeded 30%);
+} */
+
+
+.slideshow-container {
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+    z-index: 1; /* Ensure slideshow is behind other elements */
+  }
+  
+  .shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -350px; 
+    margin-bottom: 25px;
+    background-color: rgb(195, 195, 195);
+    position: relative;
+    z-index: 2; /* Ensure shop section is on top of the slideshow */
+  }
+
+
+  /* login page */
+
+  *{
+    margin: 0px;
+    padding: 0;
+    outline: 0;
+  }
+
+  /* .login{
+
+    height: 400px;
+    width: 400px;
+  } */
+
+
+  .container-login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    height: 600px;
+    width: 500px;
+    background-color: #fafafa;
+    box-shadow: 0 6px 8px rgba(0,0,0,.1);
+    border-radius: 8px;
+
+  }
+  .container-login h1{
+    margin-top: 55px;
+  }
+
+  
+  .username{    
+    font-size: x-large;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+  }
+  .password{
+    font-size: x-large;
+
+    margin-bottom: 30px;
+    margin-left: 20%;
+  }
+  .btn1{
+    font-size: x-large;
+        margin-bottom: 30px;
+        margin-left: 40%;
+  }
+
+.form1{
+    margin-top: 15%;
+}
+.form1 p {
+    margin-bottom: 30px;
+    margin-left: 20%;
+}
+.container-login h1{
+    margin-bottom: 30px;
+    margin-left: 40%;
+}
+
+
+/* error msg */
+/* .error-message {
+    font-size: 14px; 
+    color: red;
+    margin-top: 5px; 
+} */
+
+
+/* for register.php */
+
+.register-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    height: 700px;
+    width: 500px;
+    background-color: #fafafa;
+    box-shadow: 0 6px 8px rgba(0,0,0,.1);
+    border-radius: 8px;
+
+  }
+
+  .register-container h1{
+    margin-top: 60px;
+    margin-left: 35%;
+  }
+
+  .form2{
+    margin-top: 20px;
+    width: 500px; /* Adjust the width as needed */
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+
+
+    }
+
+    .form2 div{
+        margin-bottom: 15px;
+    }
+
+    .form2 input{
+        width: 65%;
+        height: 23px;
+        margin-left: 20px;
+
+    }
+
+    .form2 button{
+        font-size: 20px;
+        width: 100px; 
+    }
+    
+
+    .form2 span{
+        font-size: 18px;
+        margin-top: -20px;
+    }
+
+
+/* error in red */
+
+/* .error{
+    color: red;
+} */
+
+
+    
